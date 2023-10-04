@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Mania | JavaScript Adventure Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    
+    <img src="assets/player.png" id="player" alt=""/>
+    <img src="assets/city/layer-1.png" id="layer1" alt="">
+    <img src="assets/city/layer-2.png" id="layer2" alt="">
+    <img src="assets/city/layer-3.png" id="layer3" alt="">
+    <img src="assets/city/layer-4.png" id="layer4" alt="">
+    <img src="assets/city/layer-5.png" id="layer5" alt="">
+    <img src="assets/enemies/enemy_fly.png" id="enemy_fly" alt="">
+    <img src="assets/enemies/enemy_plant.png" id="enemy_plant" alt="">
+    <img src="assets/enemies/enemy_spider_big.png" id="enemy_spider_big" alt="">
+    <img src="assets/fire.png" id="fire" alt="">
+    <img src="assets/boom.png" id="collisionAnimation" alt="">
+    <img src="assets/lives.png" id="lives" alt="">
+    <button id="fullScreenButton">Toggle Fullscreen</button>
+    <button id="Instructions" onclick="alert('You get 5 lives, If got hit by enemies without Rolling State your live will be subtacted,Use Spacebar to enter Rolling state and hit the enemies to Gain Score , Your Target is 40 point within 30 seconds ')">Instructions</button>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
