@@ -26,10 +26,9 @@ Play the game instantly: [Dog Holiday Run Live](https://arun-kushwaha007.github.
 
 ## 📸 Screenshots
 
-<!-- Add screenshots here if available -->
-<!-- Example:
-![screenshot1](assets/screenshot1.png)
--->
+
+![screenshot](assets/Screenshot-game.png)
+
 
 ---
 
